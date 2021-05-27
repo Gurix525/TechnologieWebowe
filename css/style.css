@@ -67,9 +67,11 @@ class styles
     transition-timing-function: ease-in-out;
     padding-bottom: 10px;
     border-bottom: solid 5px rgb(255, 255, 255);
+    border-top: solid 5px rgb(255, 255, 255);
 }
 .banner-r-b-ul > a:hover >li{
     border-bottom: solid 5px black;
+    color: rgb(90, 90, 90);
 }
 .content-container{
     width: 100%;
