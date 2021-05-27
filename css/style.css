@@ -1,0 +1,122 @@
+/*
+//////////////////////////////////////
+
+global styles
+
+//////////////////////////////////////
+*/
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+
+}
+
+/*
+//////////////////////////////////////
+
+class styles
+
+//////////////////////////////////////
+*/
+.banner-container{
+    width:100%;
+    height:100px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.banner{
+    margin: auto;
+    width:80%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    
+}
+.banner-r-b-ul > a > li{
+    display: inline;
+	white-space: nowrap;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-left: 10px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    padding-bottom: 10px;
+    border-bottom: solid 5px rgb(255, 255, 255);
+}
+.banner-r-b-ul > a:hover >li{
+    border-bottom: solid 5px black;
+}
+.content-container{
+    width: 100%;
+    height: auto;
+}
+.content{
+    margin: auto;
+    width:80%;
+}
+.content-slider{
+    margin: auto;
+    width:100%;
+    background-color: rgb(246,246,246);
+    height: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 150px;
+    font-size: 2em;
+}
+.content-box-container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.c-b-c-boxes{
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    box-shadow: 0 0 10px 0px grey;
+    padding: 30px;
+    margin-top: 30px ;
+}
+.footer-container{
+    width: 100%;
+    height: max-content;
+    margin-top: 30px;
+}
+.footer{
+    margin: auto;
+    background-color: black;
+    color: grey;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 2em;
+    text-align: center;
+}
