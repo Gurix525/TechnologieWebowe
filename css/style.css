@@ -72,6 +72,7 @@ class styles
 .banner-r-b-ul > a:hover >li{
     border-bottom: solid 5px black;
     color: rgb(90, 90, 90);
+    cursor: pointer;
 }
 .content-container{
     width: 100%;
@@ -121,4 +122,64 @@ class styles
     padding-bottom: 30px;
     font-size: 2em;
     text-align: center;
+}
+
+/*
+//////////////////////////////////////
+
+notes.html styles
+
+//////////////////////////////////////
+*/
+.content-slider-todo{
+    margin: auto;
+    width:100%;
+    background-color: rgb(246,246,246);
+    height: max-content;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2em;
+}
+.todo-containerer{
+    width:80%;
+    height: max-content;
+    margin: auto;
+}
+.todo-box{
+    width:100%;
+    height: max-content;
+    
+}
+.todo-box > input {
+    width:400px;
+    height: 50px;
+    font-size: 1.3em;
+}
+.todo-box > button {
+    width:200px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.todo-box-list{
+    text-align: left;
+    font-size: 1em;
+}
+.todo-box-list>ul>li{
+    margin-top: 5px;
+}
+.todo-box-list>ul>li>span{
+    word-wrap: break-word;
+}
+
+
+.todo-box-list > ul >li > button{
+    display:none;
+    font-size: 0.6em;
+}
+.todo-box-list > ul> li:hover > button{
+    display: inline;
+    cursor: pointer;
 }
