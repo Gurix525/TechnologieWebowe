@@ -1,0 +1,157 @@
+@media screen and (max-width: 480px) {
+    .open-menu-mobile {
+        display: block;
+        z-index: 800;
+        
+    }
+    .blurredElement {
+       display: none;
+
+       background: white;
+       opacity: 0.8;
+       filter: blur(1px);
+       filter: url("blur.svg#gaussian_blur");
+       -webkit-filter: blur(13px);
+       width:100vw;
+       height: 100vh;
+       position: fixed;
+       z-index: 100;
+       top: 0;
+       left: 0;
+       right: 0.
+   }
+    .banner-r-b-ul {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        padding-inline-start:0 ;
+        z-index: 999;
+    }
+    .banner-r-b-ul > a > li{
+        padding-left: 0;
+        display: block;
+        white-space: nowrap;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: solid 5px rgb(255, 255, 255);
+        border-top: solid 5px rgb(255, 255, 255);
+        background-color: rgb(246,246,246);
+        z-index: 999;
+        padding-inline-start: 0;
+        font-size: 1.7em;
+    }
+    .banner-r-b-ul > a:hover >li{
+        border-bottom: solid 5px rgb(255, 255, 255);
+        color: rgb(90, 90, 90);
+        cursor: pointer;
+    }
+    .banner-r-b-ul > a:active >li{
+        border-bottom: solid 5px rgb(255, 255, 255);
+        color: rgb(90, 90, 90);
+        cursor: pointer;
+        background-color: rgb(162, 231, 135);
+
+    }
+    .banner-r-b-ul > a > li > img {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 1.2em;
+        width: 30px;
+
+    }
+    /*
+    //////////////////////////////////////
+
+    global styles
+
+    //////////////////////////////////////
+    */
+    .content{
+        width:100%;
+    }
+    .photos:hover{
+        transform: scale(1.1);
+        border-radius: 10px;    
+        cursor: pointer;
+        -webkit-filter: blur(2px); 
+        filter: blur(2px);
+    }
+    .c-b-c-boxes{
+        width: 44vw;
+        height: 40vw;
+        text-align: center;
+        box-shadow: 0 0 10px 0px grey;
+        margin-top: 30px ;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+    }
+    .footer{
+        margin: auto;
+        background-color: black;
+        color: grey;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 2em;
+    }
+    /*
+    //////////////////////////////////////
+
+    about.html styles
+
+    //////////////////////////////////////
+    */
+    .video{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    /*
+    //////////////////////////////////////
+
+    contact.html styles
+
+    //////////////////////////////////////
+    */
+    .content-slider > ul{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .content-slider > ul > li {
+        text-decoration: none;
+        margin-bottom: 50px;
+        list-style-type: none;
+    }
+    /*
+    //////////////////////////////////////
+
+    notes.html styles
+
+    //////////////////////////////////////
+    */
+    .todo-box > input {
+        width:100%;
+        height: 50px;
+        font-size: 1.3em;
+    }
+    .empty{
+        margin:auto;
+        margin-top: 40vh;
+        margin-bottom: 10vh;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1em;
+        width:90%;
+    }
+}
