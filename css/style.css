@@ -33,7 +33,10 @@ a:active {
     color: black;
 
 }
-
+.svgimg { 
+    width: 20px;
+    opacity: 0.4;
+}
 /*
 //////////////////////////////////////
 
@@ -62,7 +65,9 @@ class styles
 .banner-left-logo {   
     font-size: 2rem;
 }
-
+.banner-r-b-ul{
+    width: auto;
+}
 
 .banner-r-b-ul > a > li{
     display: inline;
@@ -106,6 +111,7 @@ class styles
     height: max-content;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 0px;
 
 }
@@ -115,11 +121,14 @@ class styles
     object-fit: cover;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
+    z-index: 1;
 }
 .photos:hover{
     transform: scale(1.2);
     border-radius: 10px;    
     cursor: pointer;
+    -webkit-filter: blur(2px); 
+    filter: blur(2px);
 }
 .c-b-c-boxes{
     width: 16vw;
@@ -130,6 +139,7 @@ class styles
     margin-top: 30px ;
     margin-right: 30px;
     margin-left: 30px;
+    position: relative;
 }
 
 .footer-container{
@@ -146,6 +156,9 @@ class styles
     padding-bottom: 30px;
     font-size: 2em;
     text-align: center;
+}
+.footer > a {
+    color: green;
 }
 
 /*
@@ -207,6 +220,13 @@ notes.html styles
     display: inline;
     cursor: pointer;
 }
+.empty{
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
 /*
 //////////////////////////////////////
@@ -218,4 +238,17 @@ about.html styles
 .video{
     width: auto;
     height: 200%
+}
+
+/*
+//////////////////////////////////////
+
+contact.html styles
+
+//////////////////////////////////////
+*/
+.content-slider > ul > li {
+    text-decoration: none;
+    margin-bottom: 50px;
+    list-style-type: none;
 }
